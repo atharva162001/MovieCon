@@ -1,0 +1,39 @@
+*{
+    scroll-behavior: smooth;
+}
+.header{
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 2.7em;
+    font-weight: 800;
+    border-radius: 25px;
+    border:3px solid white;
+    transition: 0.5s;
+}
+.header:hover{
+    color: black;
+    border:3px solid gray;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.headerContainer{
+    margin-top:7.5em;
+    margin-bottom: 3.5em;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 560px){
+    .header{
+        font-size: 2.2em;
+        font-weight: bolder;
+    }
+}
+

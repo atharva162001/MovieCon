@@ -1,0 +1,11 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,62 @@
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.borderContainer{
+    display: flex;
+    opacity: 0.2;
+    flex-direction: row;
+    justify-content: space-around;
+    object-fit: contain;
+    align-items: center;
+    padding-bottom: 0.4em;
+    flex-wrap:wrap;  
+}
+
+.borderContainer:hover{
+    opacity: 1;
+}
+
+.myButton{
+    background-color: #fdfdfd;;
+    color: #000000;
+    border: 0.3em solid #000000;
+    object-fit: contain;
+    padding: 0.9em 1.3em;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 1.2em;
+    transition: 0.25s;
+    margin: 0 auto;
+}
+.myButton:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-10px);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+@media (max-width: 560px){
+    .myButton{
+        padding: 0.8em 0.3em;
+        margin-bottom: 0.25rem;
+        border: 0.25em solid #000000;
+        opacity: 1;
+    }
+    .myButton:hover{
+        transform: none;
+    }
+    .borderContainer{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,14 @@
+
+.trendingContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+@media(max-width:700px){
+    .trendingContainer{
+        margin-bottom: 150px;
+    }
+}
