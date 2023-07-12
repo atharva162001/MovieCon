@@ -1,33 +1,28 @@
 
 
 
-# _Movie Con_
+# _CineSpot_
 
-It is a Website that helps a user to Review Movies of different Genres across the Web and also helps them get to know about some Current Trending Movies and Tv Shows.
+Introducing "CineSpot" – the ultimate destination for movie enthusiasts. Discover trending movies, search for your favorites, access ratings and cast information, and watch trailers. Explore the world of cinema with CineSpot and elevate your movie-watching experience.
 
-- This App will help you Search your Favourite Movies.
-- It also gives a little Synopsis about the Movie itself.
-- It also shows the Current Trending Movies and Tv Shows.
+## Project Demo
 
-## Live View
-
-### 🎞️ [Movie Con](https://movieconvjti.netlify.app/)
+### 🎞️ [CineSpot]()
 
 
 
 
-## To Run this Application On Your Computer
-- First of all you need to have [Node](https://nodejs.org/en/download/) installed on your Computer.
-- Then you'll need to Clone the Git Hub Repository on your Local Computer.
-- Then you'll need to install all the Required Dependancies for this Project, you can do so by Executing the Following Code on your Command Prompt while remaining in the same Directory as the one in which you've Cloned the Repository.
+## How to Run Locally?
+- Make sure you have [Node](https://nodejs.org/en/download/) installed.
+- Clone the repository.
   ```javascript
     npm install
     ```
-- Then you can start the App by Executing the Following Command on your Command Prompt, but remember that you need to execute the following Command while remaining in the same Directory as the one in which you've Cloned the Repository
+- 
   ```javascript
     npm start
     ```
-- Then the App will start Running on your Web Browser on Port 3030.
+
 
 
 ## 💻Tech Stack
@@ -41,32 +36,9 @@ It is a Website that helps a user to Review Movies of different Genres across th
 <a href="https://nodejs.org/en/" title="Node JS"><img src="https://github.com/get-icon/geticon/blob/master/icons/nodejs-icon.svg" alt="Node JS" width="31px" height="31px"></a>
 
 
-## 📷Snapshots
-
-### Home Page
-<img src="/public/Images/Snapshots/Home.png" />
-
-### Search
-<img src="/public/Images/Snapshots/Search.png" />
-
-### Trending
-<img src="/public/Images/Snapshots/Trending.png" />
-
-### About Movie
-<img src="/public/Images/Snapshots/MovieINfo.png" />
 
 
-## Team Bug Busters
 
-- Harshal Ubale - hpubale_b20@ce.vjti.ac.in 
-- Atharva Tarlekar - artarlekar_b20@ce.vjti.ac.in
-- Priya Mali - ppmali_b20@ce.vjti.ac.in
-- Priti Mali - ppmali_b20@me.vjti.ac.in
 
-## Mentors
-- Gauri Shewale
-- Ruchika Wadhwa
-- Meera Wadher
-- Mithilesh Patil
 
 

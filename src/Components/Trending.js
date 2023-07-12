@@ -24,7 +24,6 @@ const Trending = () => {
     }
     useEffect(() => {
         fetchTrendingMedia();
-        // eslint-disable-next-line
     }, [page])
     return (
         <>
