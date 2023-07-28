@@ -16,7 +16,7 @@ const NavBar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light fixed-top navBar">
                 <div className="container">
-                    <a href="https://movieconvjti.netlify.app/" className="navbar-brand" id="navBarBrand" > <MovieCreationIcon fontSize="large" /> Movie Con</a>
+                    <a href="https://cine-spot.vercel.app/" className="navbar-brand" id="navBarBrand" > <MovieCreationIcon fontSize="large" /> Movie Con</a>
     
                     
                 </div>

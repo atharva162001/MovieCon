@@ -28,7 +28,3 @@ Introducing "CineSpot" – the ultimate destination for movie enthusiasts. Disco
 
 
 
-
-
-
-
